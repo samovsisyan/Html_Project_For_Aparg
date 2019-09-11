@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Start HEADER CSS*/
+
+#header{
+    border: solid 5px yellow;
+    width: 1920px;
+    height: auto;
+}
+
+
+/*Start Header Logo CSS*/
+
+
+.header_logo {
+    border: solid 5px green;
+    width: 1170px;
+    margin: 0 375px 0 375px;
+    display: grid;
+    grid-template-columns: 1fr 50px 50px 50px;
+    grid-template-rows: 171px;
+    grid-column-gap: 50px;
+    align-items: center;
+}
+
+.header_logo img:nth-child(1) {
+    border: solid 1px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+
+/*End Header Logo CSS*/
+
+
+
+/*Start Background Menu CSS*/
+
+
+.background_menu {
+    width: 1920px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px;
+    background-color: #0F2D3C;
+}
+
+.menu {
+    border: solid 5px darkblue;
+    width: 1170px;
+    margin: 0 375px 0 375px;
+    display: grid;
+    grid-template-columns: 110px 110px 110px 110px 110px;
+    grid-template-rows: 28px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.menu div p  {
+    border: solid 5px brown;
+    display: flex;
+    color: white;
+    height: 40px;
+    margin-top: 7%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*End Background Menu CSS*/
+
+
+/*Start Background Photo CSS*/
+
+
+.header_background_photo {
+    border: solid 5px darkmagenta;
+    /* width: 100%; */
+    /* height: 961px; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 961px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+}
+
+.header_background_photo_css {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.header_background_text_button {
+    border: solid 5px tomato;
+    position: absolute;
+    width: 1170px;
+    margin: 520px 375px 0 375px;
+
+
+
+}
+
+/*End Background Photo CSS*/
+
+
+/*Start Header Background Photo Text CSS*/
+
+
+
+.header_background_photo_text {
+    /* display: grid; */
+    width: 100%;
+    height: 120px;
+    font-size: 30px;
+    line-height: 42px;
+    color: #ffffff;
+    /* color: black; */
+    font-weight: 300;
+    text-align: center;
+    /*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
+}
+
+/*End Header Background Photo Text CSS*/
+
+
+/*Start Header Background Photo Button*/
+
+.header_background_photo_button {
+    display: flex;
+    justify-content: center;
+
+}
+
+.header_background_photo_button button {
+    width: 370px;
+    height: 89px;
+    border-radius: 5px;
+    background-image: linear-gradient(0deg, #a3002b 0%, #ad004d 100%);
+    margin-top: 56px;
+
+}
+
+.header_background_photo_button button p {
+    font-size: 32px;
+    line-height: 42px;
+    color: #ffffff;
+    font-family: "Effra";
+    text-align: center;
+}
+
+/*End Header Background Photo Button*/
+
+/*Start Our Products*/
+
+/*Start Our Products Titlle*/
+
+.header_our_products {
+    border: solid 5px lightgreen;
+    width: 1920px;
+    height: 670px;
+    display: grid;
+    grid-row-gap: 48px;
+}
+
+.header_our_products_titlle {
+    width: 1170px;
+    margin: 68px 375px 0 375px;
+    border: solid 5px lightcoral;
+    font-size: 45px;
+    line-height: 42px;
+    color: #244452;
+    font-family: "Effra";
+    text-align: center;
+}
+/*End Our Products Titlle*/
+
+/*Start Our Products Selects*/
+.header_our_products_selects {
+    border: solid 5px lawngreen;
+    display: grid;
+    width: 430px;
+    margin: 31px 745px 0 745px;
+    grid-template-columns: 53px 236px 142px;
+    grid-template-rows: 31px;
+
+}
+
+.header_our_products_selects_oll {
+    width: 77px;
+    height: auto;
+    font-size: 23px;
+    line-height: 42px;
+    color: #a60046;
+    font-family: "Letter Gothic Std";
+    text-align: center;
+    background-color: white;
+    border: none;
+
+}
+
+.header_our_products_selects_popularity {
+    width: auto;
+    height: auto;
+    font-size: 24px;
+    line-height: 42px;
+    color: #a60046;
+    font-family: "Letter Gothic Std";
+    text-align: center;
+    background-color: white;
+    border: none;
+
+}
+
+.header_our_products_selects_text {
+    font-size: 25px;
+    text-align: center;
+}
+/*End Our Products Selects*/
+
+/*Start Instagram Photo CSS*/
+.header_instagram_photo_slider {
+    border: solid 5px darkgoldenrod;
+    width: 1170px;
+    margin: 0 375px 0 375px;
+    display: grid;
+    grid-template-columns: 70px 1fr 1fr 1fr 1fr 1fr 70px;
+    grid-template-rows: 288px;
+    grid-column-gap: 37px;
+
+}
+
+.header_instagram_photo_slider div {
+    border: solid 1px black;
+    background-image: linear-gradient(0deg, #244452 0%, rgba(36,82,82,0) 27%);
+
+
+}
+
+.header_instagram_photo_slider_back {
+    margin-top: 110px;
+}
+
+.header_instagram_photo_slider_next {
+    position: absolute;
+    background-color: white;
+    margin: 0px 0 0 1099px;
+    width: 170px;
+    height: 288px;
+    border: none;
+}
+
+.header_instagram_photo_slider_next img {
+    margin-top: 110px;
+    margin-left: 37px;
+}
+
+
+
+.header_instagram_photo_slider div img:nth-child(1) {
+    position: absolute;
+    border: solid 1px black;
+    width: 30px;
+    height: 30px;
+}
+
+.header_instagram_photo_slider div img:nth-child(2) {
+    width: 270px;
+    height: 288px;
+}
+/*.header_instagram_photo_slider div div{*/
+/*    width: 264px;*/
+/*    height: 60px;*/
+/*    background-image: linear-gradient(0deg, #244452 0%, rgba(36,68,82,0) 100%)*/
+/*}*/
+
+
+
+/*.header_instagram_photo_slider_icon img {*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;*/
+/*    border:  solid 1px black;*/
+/*    position: absolute;*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+
+/*}*/
+
+.header_instagram_photo_slider_img_one span{
+    border: solid 5px deeppink;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-column-gap: 25px;
+
+}
+
+.header_instagram_photo_slider_img_one span img {
+    width: 25px;
+    height: 25px;
+}
+
+/*End Instagram Photo CSS*/
+
+
+
+
+/*End Our Products*/
+
+/* End HEADER CSS*/
